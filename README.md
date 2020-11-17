@@ -25,10 +25,12 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly responsive and available, in addition to restricting access to the network.
 
   What aspect of security do load balancers protect? 
+    
     A load balancer can provide a web application firewall to protect the application from malicious actors, detect and block DDoS attacks and authenticate  
     user access by requesting a username and password from the client device. With regard to the CIA triad, a load balancer ensures availablity.
 
   What is the advantage of a jump box?
+    
     The jumpbox controls access to machines on the private network. It allows access from specific IPs that are granted access in the network's firewall rules.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the system logs and system metric data.

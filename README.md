@@ -4,7 +4,12 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Image of elk network](https://github.com/bwilliams4428/Brian-Williams-Elk-Server-Project/blob/main/Diagrams/Elk-server-project-topology.png)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/Elk-server-project-topology.png)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/azuretopology.PNG)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/azuretopology2.PNG)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/azuretopology3.PNG)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/azuretopology4.2.PNG)
+![Image of elk network](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/azuretopology5.PNG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML playbook file may be used to install only certain pieces of it, such as Filebeat.
 

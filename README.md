@@ -137,8 +137,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the config files for Filebeat and Metricbeat after downloading them using the curl command to /etc/ansible/roles.
  
- * [filebeat-config.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/filebeat-config.yml)
- * [metricbeat.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/metricbeat.yml)
+   * [filebeat-config.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/filebeat-config.yml)
+   * [metricbeat.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/metricbeat.yml)
 
 - Update the output.elasticsearch and setup.kibana parameters in both config files to use the private IP for the ELK server virtual machine.
 

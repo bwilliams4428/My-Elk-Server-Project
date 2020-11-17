@@ -162,8 +162,13 @@ Which file do you update to make Ansible run the playbook on a specific machine?
    * [metricbeat.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/metricbeat.yml)
    * Change the hosts parameter in [metricbeat-playbook.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Ansible/metricbeat-playbook.yml) and [filebeat-playbook.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Ansible/filebeat-playbook.yml) files to a server type defined in the hosts file inside of the /etc/ansible directory so that the playbooks can run on the machines defined under those specific server types.
     
+
+![Image of hosts](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/hosts.PNG)
+![Image of filebeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/hfb.PNG)
+![Image of elk metricbeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/hmb.PNG)
     
-    Change the output.elasticsearch and setup.kibana parameters in both config files to use the private IP for the specific machine.     
+    
+  Be sure to change the output.elasticsearch and setup.kibana parameters in both config files to use the private IP for the specific machine.     
 	
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?_

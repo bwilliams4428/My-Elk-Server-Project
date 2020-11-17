@@ -121,23 +121,24 @@ These Beats allow us to collect the following information from each machine:
 
 In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 
-	Filebeat monitors system log files and locations specified by the system admin, documents the log events and sends them to the ELK server for indexing. Filebeat logs SSH logins from servers
-	systems or virtual machines that it was setup to monitor.
+ Filebeat monitors system log files and locations specified by the system admin, documents the log events and sends them to the ELK server for indexing. Filebeat logs  
+ SSH logins from servers systems or virtual machines that it was setup to monitor.
 	
-	![Image of elk filebeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/Filebeat%20Example.PNG)
+ ![Image of elk filebeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/Filebeat%20Example.PNG)
 	
-	Metricbeats records system metric data from the operating system installed on the server and running services on the server. Examples of the data that     
-    metricbeats records are CPU and RAM usage data, inbound and outbound network traffic and the number of processes running on the server.
+ Metricbeats records system metric data from the operating system installed on the server and running services on the server. Examples of the data that     
+ metricbeats records are CPU and RAM usage data, inbound and outbound network traffic and the number of processes running on the server.
 
-	![Image of elk metricbeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/MetricBeatExample.PNG)
-)
+![Image of elk metricbeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/MetricBeatExample.PNG)
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
 - Copy the config files for Filebeat and Metricbeat after downloading them using the curl command to /etc/ansible/roles.
-		* [filebeat-config.yml](https://github.com/bwilliams4428/Brian-Williams-Elk-Server-Project/blob/main/Ansible/install-elk-.yml)
-        * [metricbeat.yml](https://github.com/bwilliams4428/Brian-Williams-Elk-Server-Project/blob/main/Ansible/filebeat-playbook.yml)
+ 
+ * [filebeat-config.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/filebeat-config.yml)
+ * [metricbeat.yml](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Linux/metricbeat.yml)
 
 - Update the output.elasticsearch and setup.kibana parameters in both config files to use the private IP for the ELK server virtual machine.
 

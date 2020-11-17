@@ -114,9 +114,11 @@ We have installed the following Beats on these machines:
 
 Specify which Beats you successfully installed
 
-	* Filebeat
-    * Metricbeat
-	
+ * Filebeat
+   ![Image of elk filebeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/Filebeat%20Example.PNG)
+ * Metricbeat
+   ![Image of elk metricbeat](https://github.com/bwilliams4428/My-Elk-Server-Project/blob/main/Diagrams/MetricBeatExample.PNG)
+
 These Beats allow us to collect the following information from each machine:
 
 In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
